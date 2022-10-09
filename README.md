@@ -1,5 +1,4 @@
 # eth-gas-reporter
-
 [![npm version](https://badge.fury.io/js/eth-gas-reporter.svg)](https://badge.fury.io/js/eth-gas-reporter)
 [![Build Status](https://travis-ci.org/cgewecke/eth-gas-reporter.svg?branch=master)](https://travis-ci.org/cgewecke/eth-gas-reporter)
 [![Codechecks](https://raw.githubusercontent.com/codechecks/docs/master/images/badges/badge-default.svg?sanitize=true)](https://codechecks.io)
@@ -116,6 +115,8 @@ In order to retrieve the gas price of a particular blockchain, you can configure
 | Avalanche          | AVAX  | https://api.snowtrace.io/api?module=proxy&action=eth_gasPrice          |
 | Heco               | HT    | https://api.hecoinfo.com/api?module=proxy&action=eth_gasPrice          |
 | Moonriver          | MOVR  | https://api-moonriver.moonscan.io/api?module=proxy&action=eth_gasPrice |
+
+https://api.arbiscan.io/api?module=proxy&action=eth_gasPrice - Arbitrum
 
 These APIs have [rate limits](https://docs.etherscan.io/support/rate-limits). Depending on the usage, it might require an [API Key](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics).
 
